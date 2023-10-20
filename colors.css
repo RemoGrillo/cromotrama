@@ -1,0 +1,399 @@
+
+.bianco {
+    color: #FFFFFF;
+}
+
+.corallino {
+    color: #FF7F50;
+}
+
+
+
+.biancastra {
+    color: #FFFFFF;
+}
+
+.rosso {
+    color: #961414;
+}
+
+.sabbia {
+    color: #F4A460;
+}
+
+.catrame {
+    color: #D2B48C;
+}
+
+.bianca {
+    color: #FFFFFF;
+}
+
+.azzurro {
+    color: #007FFF;
+}
+
+.rosa {
+    color: #FFC0CB;
+}
+
+.bronzo {
+    color: #CD7F32;
+}
+
+.oro {
+    color: #FFD700;
+}
+
+.verdastro {
+    color: #0d560d;
+}
+
+
+
+
+.biancastro {
+    color: #FFFFFF;
+}
+
+.lino {
+    color: #FAF0E6;
+}
+
+.pera {
+    color: #D1E231;
+}
+
+.biscotto {
+    color: #FFE4C4;
+}
+
+.viola {
+    color: #800080;
+}
+
+
+.argento {
+    color: #C0C0C0;
+}
+
+
+.kaki {
+    color: #C3B091;
+}
+
+
+
+.verde {
+    color: #148114;
+}
+
+.tronca {
+    color: #79443B;
+}
+
+.conchiglia {
+    color: #FFF5EE;
+}
+
+.prugna {
+    color: #660066;
+}
+
+.corallo {
+    color: #cc4938;
+}
+
+.gialla {
+    color: #ffdd00;
+}
+
+.giallo {
+    color: #ffdd00;
+}
+
+.carbone {
+    color: #343434;
+}
+
+.celeste {
+    color: #99CBFF;
+}
+
+.violetto {
+    color: #8000FF;
+}
+
+.crema {
+    color: #FFFDD0;
+}
+
+.azzurra {
+    color: #007FFF;
+}
+
+.rossa {
+    color: #961414;
+}
+
+.lina {
+    color: #FAF0E6;
+}
+
+.cioccolato {
+    color: #D2691E;
+}
+
+.limone {
+    color: #FDE910;
+}
+
+.rubino {
+    color: #B72755;
+}
+
+.vinaccia {
+    color: #C0007F;
+}
+
+.mogano {
+    color: #C04000;
+}
+
+.tronco {
+    color: #79443B;
+}
+
+.pesca {
+    color: #FFE5B4;
+}
+
+.argentino {
+    color: #C0C0C0;
+}
+
+.argentina {
+    color: #C0C0C0;
+}
+
+.rame {
+    color: #B87333;
+}
+
+.seppia {
+    color: #704214;
+}
+
+.corallina {
+    color: #FF7F50;
+}
+
+.isabella {
+    color: #F4F0EC;
+}
+
+.fulva {
+    color: #EBB55F;
+}
+
+.rossastra {
+    color: #961414;
+}
+
+.rossastro {
+    color: #961414;
+}
+
+
+
+.verdino {
+    color: #5abb5a;
+}
+
+.giallina {
+    color: #FFFF00;
+}
+
+.azzurrina {
+    color: #007FFF;
+}
+
+.biscottino {
+    color: #FFE4C4;
+}
+
+.azzurrino {
+    color: #007FFF;
+}
+
+.porpora {
+    color: #B20000;
+}
+
+.camoscio {
+    color: #F0DC82;
+}
+
+.porporino {
+    color: #B20000;
+}
+
+.giallino {
+    color: #FFFF00;
+}
+
+.castagno {
+    color: #CD5C5C;
+}
+
+.sfondo {
+    background-color: black;
+}
+
+.nerastro ,
+.nerastra ,
+.scuroscuro ,
+.nero ,
+.nera ,
+.scuro {
+    color: #565656;
+    font-weight:bold;
+}
+
+.bluastro {
+    color: #5f5fc0;
+}
+.blu {
+    color: #3232da;
+}
+
+
+#main {
+    text-align: justify;
+    margin-top:50px;
+    width: 580px;
+    height: 750px;
+    margin-left:50%;
+    transform: translate(-50%);
+    background-color: #171717;
+    padding: 60px;
+    box-shadow: 0px 0px 100px 70px rgba(37, 37, 37, 0.3);
+}
+
+#main span {
+            font-family: "Roboto", sans-serif;
+}
+
+#titleContainer {
+    color: white !important;
+    font-family: "Roboto Thin", sans-serif;
+}
+
+#titleContainer h2 {
+    margin: 0;
+}
+
+#titleContainer h1 {
+    margin: 0;
+        font-size: 40pt;
+}
+
+#titleContainer h3 {
+    margin-top: 0;
+    margin-bottom:30px;
+    font-size: small;
+
+}
+
+.colorword {
+    font-weight: normal;
+    font-size: 8pt;
+    font-family: Roboto, sans-serif;
+    transition: text-shadow 1s;
+}
+
+.count {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    position: absolute;
+    left: 150px;
+}
+
+body {
+    background-color: black;
+}
+
+#counters {
+    position: fixed;
+    left: 20px;
+    top: 100px;
+}
+
+.colorcount {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Roboto Thin', sans-serif;
+}
+
+.colorcount:hover{
+    opacity: 0.6;
+}
+
+.colorcount::before {
+    content: '';
+    color: white;
+    display: block;
+    position: absolute;
+    height: 1px;
+    background-color: currentColor;
+    top: 50%;
+    z-index: -10;
+    opacity: 0.1;
+    width: calc(var(--line-width) * 1pt);
+}
+
+.glow {
+    animation-name: glowEffect;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.glow.nero, .glow.nera, .glow.scuro, .glow.scuroscuro {
+    animation-name: glowEffectDark;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes glowEffect {
+    from {
+        text-shadow: none;
+    }
+    to {
+        text-shadow: 0 0 5px #6e6e6e, 0 0 10px #858585, 0 0 15px #838383, 0 0 20px #8c8c8c;
+    }
+}
+
+@keyframes glowEffectDark {
+    from {
+        text-shadow: none;
+    }
+    to {
+        text-shadow: 0 0 5px #ffffff, 0 0 10px #1b3659, 0 0 15px #cecece, 0 0 10px #ffffff;
+        color: black;
+    }
+}
+
+img {
+    z-index: -10;
+    opacity: 0.4;
+    position: fixed;
+    right: -100px;
+    width: 500px;
+    bottom:-200px;
+}
+
+h3 {
+
+}
